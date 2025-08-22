@@ -1,5 +1,6 @@
 <script setup lang="ts">
-    import { Link, computed } from '@inertiajs/vue3';
+    import { Link } from '@inertiajs/vue3';
+    import { computed } from 'vue';
     import WelcomeLayout from '@/layouts/WelcomeLayout.vue';
 
     // Props from the server
